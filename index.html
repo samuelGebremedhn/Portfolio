@@ -1,29 +1,395 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f4f5f7"><meta name="description" content="Samuel Gebremedhn — Computer Science graduate building practical AI, software, and drone technology projects."><title>Samuel Gebremedhn | Portfolio</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"><script defer src="script.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f5f7">
+    <meta name="description"
+        content="Samuel Gebremedhn — Computer Science graduate building practical AI, software, and drone technology projects.">
+    <title>Samuel Gebremedhn | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
+
 <body>
-<a class="skip" href="#main">Skip to content</a>
-<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div><header class="header"><div class="nav"><a class="brand" href="#home"><span class="logo">SG</span> Samuel Gebremedhn</a><div class="nav-controls"><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme"><span id="themeIcon" aria-hidden="true">☾</span><span class="theme-label">Dark mode</span></button><button id="menu" aria-expanded="false" aria-label="Open menu">☰</button></div><nav id="links"><a href="#projects">Projects</a><a href="#research">Research</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#about">About</a><a href="#skills">Skills</a><a class="contact-nav" href="#contact">Contact ↗</a><a href="https://github.com/samuelGebremedhn" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub ↗</a></nav></div></header>
-<main id="main">
-<section class="hero wrap" id="home"><div class="hero-grid"><div><p class="eyebrow"><i></i> COMPUTER SCIENCE · AI · DRONE TECHNOLOGY</p><h1>Building technology<br>for <em>real-world problems.</em></h1><p class="intro">I'm Samuel Gebremedhn, a Computer Science and Engineering graduate interested in applied AI, accessible technology, and autonomous systems.</p><div class="actions"><a class="btn primary" href="#projects">Explore my work ↘</a><a class="btn secondary" href="#contact">Get in touch</a></div><div class="facts"><div><b>AI & ML</b><span>Practical projects</span></div><div><b>Robotics</b><span>Autonomy concepts</span></div><div><b>Research</b><span>Build · test · learn</span></div></div></div>
-<div class="hero-art"><div class="grid"></div><div class="orbit one"></div><div class="orbit two"></div><div class="drone"><div class="arm a"></div><div class="arm b"></div><div class="body"><i></i></div><span class="rotor r1"></span><span class="rotor r2"></span><span class="rotor r3"></span><span class="rotor r4"></span></div><div class="float f1"><b>⌘ &nbsp; Applied AI</b><small>Models & insights</small></div><div class="float f2"><b>⌁ &nbsp; Autonomous systems</b><small>Navigation research</small></div><div class="coords">11° 00' N · 38° 45' E<small>SIMULATED DATA</small></div></div></div><div class="hero-bottom"><span>PORTFOLIO / 2026</span><span>Curiosity into working prototypes <b>↓</b></span></div></section>
-<section class="wrap section" id="projects"><div class="heading"><div><p class="eyebrow">SELECTED WORK</p><h2>Projects that turn ideas<br>into <em>prototypes.</em></h2></div><p>A growing collection of experiments in machine learning, knowledge tools, and drone simulation.</p></div><div class="filters"><button class="active" data-filter="all">All projects</button><button data-filter="ai">AI & Machine Learning</button><button data-filter="drone">Drone & Robotics</button><button data-filter="accessibility">Assistive Technology</button></div><div class="projects" id="projectGrid">
-<article class="project featured" data-category="drone"><div class="visual drone-visual"><label>SIMULATION / 01</label><div class="route"><svg viewBox="0 0 420 180" aria-label="Illustrated drone route"><path d="M25 145 C75 145 65 42 150 55 S220 145 275 95 S340 28 395 40"/><circle cx="25" cy="145" r="6"/><circle cx="150" cy="55" r="6"/><circle cx="275" cy="95" r="6"/><circle cx="395" cy="40" r="6"/></svg></div><small>WAYPOINT NAVIGATION · PATH PLANNING</small></div><div class="project-info"><div class="meta">DRONE TECHNOLOGY <span>01 / 06</span></div><h3>DroneSim Lite</h3><p>A laptop-friendly research prototype for simulated waypoint navigation, obstacle-aware route planning, telemetry visualization, and mission experiments.</p><div class="tags"><span>Python</span><span>Streamlit</span><span>Plotly</span><span>A* Pathfinding</span></div><a href="https://github.com/samuelGebremedhn" data-repo-match="dronesim-lite" class="project-link">View repository ↗</a></div></article>
-<article class="project" data-category="ai"><div class="visual model-visual"><label>MACHINE LEARNING / 02</label><div class="chart"><div class="chart-title">MODEL COMPARISON</div><div class="bars"><i style="height:40%"></i><i style="height:66%"></i><i style="height:53%"></i><i style="height:84%"></i><i style="height:73%"></i><i style="height:95%"></i></div></div></div><div class="project-info"><div class="meta">AUTOML <span>02 / 06</span></div><h3>ModelPilot</h3><p>An automated machine-learning toolkit for dataset profiling, preprocessing, model benchmarking, evaluation, and prediction.</p><div class="tags"><span>Python</span><span>Scikit-learn</span><span>Pandas</span></div><a href="https://github.com/samuelGebremedhn" data-repo-match="modelpilot" class="project-link">View repository ↗</a></div></article>
-<article class="project" data-category="ai"><div class="visual study-visual"><label>KNOWLEDGE TOOLS / 03</label><div class="paper"><b>Study notes</b><i></i><i></i><i></i><small>Q&A · FLASHCARDS · QUIZZES</small></div><strong class="spark">✳</strong></div><div class="project-info"><div class="meta">LOCAL AI ASSISTANT <span>03 / 06</span></div><h3>StudyForge</h3><p>A privacy-first study assistant for document-based questions, summaries, flashcards, and quiz generation using local retrieval.</p><div class="tags"><span>Python</span><span>NLP</span><span>Streamlit</span></div><a href="https://github.com/samuelGebremedhn" data-repo-match="studyforge" class="project-link">View repository ↗</a></div></article>
-<article class="project" data-category="ai"><div class="visual anomaly-visual"><label>ANALYTICS / 04</label><div class="scatter"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="outlier"></i><i></i><i></i><i></i><i></i></div><small class="outlier-label">OUTLIER DETECTED</small></div><div class="project-info"><div class="meta">UNSUPERVISED ML <span>04 / 06</span></div><h3>AnomalyLens</h3><p>An exploratory tool for finding unusual records in tabular datasets with anomaly scoring, visual analysis, and exportable results.</p><div class="tags"><span>Isolation Forest</span><span>Python</span><span>Plotly</span></div><a href="https://github.com/samuelGebremedhn" data-repo-match="anomalylens" class="project-link">View repository ↗</a></div></article>
-<article class="project" data-category="ai"><div class="visual game-visual"><label>GAME AI / 05</label><div class="hands"><span>✊</span><b>VS</b><span>✌</span></div><small>YOU 03 &nbsp; · &nbsp; AI 02</small></div><div class="project-info"><div class="meta">ADAPTIVE GAME <span>05 / 06</span></div><h3>GestureArena</h3><p>A Rock Paper Scissors game with an adaptive opponent, match statistics, and optional experimental camera-based gesture input.</p><div class="tags"><span>Python</span><span>OpenCV</span><span>Game Logic</span></div><a href="https://github.com/samuelGebremedhn" data-repo-match="gesturearena" class="project-link">View repository ↗</a></div></article>
-<article class="project" data-category="accessibility"><div class="visual chair-visual"><label>ASSISTIVE TECHNOLOGY / 06</label><div class="chair"><i class="wheel big"></i><i class="wheel small"></i><i class="seat"></i><i class="back"></i><i class="wave"></i></div><small>OBSTACLE SENSING · MOBILITY SUPPORT</small></div><div class="project-info"><div class="meta">UNDERGRADUATE RESEARCH <span>06 / 06</span></div><h3>Automated Wheelchair</h3><p>An academic prototype exploring obstacle avoidance and sensor-assisted mobility using Arduino, ultrasonic sensing, and motor control.</p><div class="tags"><span>Arduino</span><span>Ultrasonic Sensor</span><span>IoT Concepts</span></div><a href="#research" class="project-link">Read research summary ↗</a></div></article>
-</div><p class="note">Project status varies: some are working software prototypes, while others are research or development projects. See each repository for implementation details and limitations.</p></section>
-<section class="wrap section github-section" id="github-projects"><div class="heading"><div><p class="eyebrow">LIVE FROM GITHUB</p><h2>More of my <em>work.</em></h2></div><p>Public repositories are loaded automatically from GitHub, so new projects can appear here without editing this page.</p></div><div class="repo-status" id="repoStatus" role="status">Loading public repositories…</div><div class="repo-grid" id="repoGrid" aria-live="polite"></div><div class="repo-footer"><a class="btn secondary" href="https://github.com/samuelGebremedhn?tab=repositories" target="_blank" rel="noopener noreferrer">Browse all repositories ↗</a></div></section>
-<section class="research-band" id="research"><div class="wrap research-grid"><div><p class="eyebrow">RESEARCH & ENGINEERING</p><h2>Technology should<br>make a <em>difference.</em></h2><p class="muted">My interests sit at the intersection of practical engineering and human needs: accessible mobility, autonomous systems, and software that helps people learn and make decisions.</p><a class="btn primary" href="#contact">Discuss a collaboration ↗</a></div><article class="research-card"><div class="meta green">RESEARCH NOTE / 001</div><div class="research-symbol">⌁</div><h3>Automated Wheelchairs with the Application of Obstacle Avoidance and Sensory Technology</h3><p>An academic project exploring a cost-conscious wheelchair prototype with manual and autonomous modes, light-dependent control, ultrasonic obstacle detection, and Arduino-based motor control.</p><hr><div class="research-details"><div><small>FOCUS</small><b>Assistive mobility</b></div><div><small>METHOD</small><b>Embedded systems</b></div><div><small>GOAL</small><b>Safer navigation</b></div></div><p class="caveat">Prototype research only; not a certified medical or mobility device.</p></article></div></section>
-<section class="wrap section education-section" id="education"><div class="heading"><div><p class="eyebrow">ACADEMIC BACKGROUND</p><h2>Learning that shaped<br>my <em>foundation.</em></h2></div><p>A concise overview of my formal computer science education.</p></div><div class="timeline"><article class="timeline-item"><span class="timeline-date">2020 — 2024</span><div><h3>Bachelor of Technology / Engineering in Computer Science</h3><p>C. V. Raman Global University · Bhubaneswar, Odisha, India</p><span class="timeline-note">Graduated 23 July 2024</span></div></article></div></section>
-<section class="wrap section experience-section" id="experience"><div class="heading"><div><p class="eyebrow">PROFESSIONAL EXPERIENCE</p><h2>Communication,<br>precision and <em>delivery.</em></h2></div><p></p></div><div class="timeline"><article class="timeline-item"><span class="timeline-date">Freelance · 6 years</span><div><h3>Language Freelancer · Translation</h3><p>Medical, general, business, and financial translation work, including large projects with tight delivery deadlines.</p><span class="timeline-note">Independent client work · Quality-focused delivery</span></div></article></div></section>
-<section class="wrap section" id="about"><div class="heading"><div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Engineer by training.<br><em>Builder by curiosity.</em></h2></div></div><div class="about-grid"><div><p class="lead">I’m a Computer Science and Engineering graduate from C. V. Raman Global University, India, with a strong interest in building practical software and engineering solutions.</p><p class="muted">My work spans machine-learning applications, document-based learning tools, assistive technology, and early-stage drone simulation. I enjoy learning by building, testing ideas, documenting results, and improving projects incrementally.</p><p class="muted">I’m especially interested in technology that can be useful in real settings—from a university lab to a community that needs more accessible tools.</p></div><div class="stats"><div><b>2024</b><span>Graduation year</span></div><div><b>AI + Systems</b><span>Current areas of exploration</span></div><div><b>Research mindset</b><span>Prototype, measure, improve</span></div></div></div></section>
-<section class="wrap section research-highlights" id="research-work"><div class="heading"><div><p class="eyebrow">RESEARCH & PRESENTATIONS</p><h2>Signals, movement<br>and <em>intelligent systems.</em></h2></div><p>Selected research-oriented work alongside the featured software projects.</p></div><div class="highlight-grid"><article class="highlight-card"><span class="highlight-kicker">NEUROTECHNOLOGY</span><h3>Parkinson’s Tremor Severity</h3><p>Machine-learning work exploring tremor-severity classification from movement-sensor data.</p><a href="https://github.com/samuelGebremedhn/parkinson-tremor-severity" target="_blank" rel="noopener noreferrer">Explore repository ↗</a></article><article class="highlight-card"><span class="highlight-kicker">NEURODATA</span><h3>EEG Emotion Classification</h3><p>A project focused on emotion-classification experiments using EEG data.</p><a href="https://github.com/samuelGebremedhn/EEG-emotion-Neurodata" target="_blank" rel="noopener noreferrer">Explore repository ↗</a></article><article class="highlight-card"><span class="highlight-kicker">ASSISTIVE ENGINEERING</span><h3>Automated Wheelchair Research</h3><p>Academic research on obstacle avoidance and sensory technology for an Arduino-based wheelchair prototype; presented at the 15th ICCCNT.</p><a href="#research">Read project summary ↗</a></article></div></section>
-<section class="wrap section skills-section" id="skills"><div class="heading"><div><p class="eyebrow">TOOLS & INTERESTS</p><h2>My technical <em>toolkit.</em></h2></div><p>A growing skill set developed through academic work and independent projects.</p></div><div class="skills"><article><b>⌘</b><h3>Programming</h3><p>Python · C/C++ fundamentals · JavaScript basics</p></article><article><b>◈</b><h3>Machine Learning</h3><p>Scikit-learn · preprocessing · model evaluation · NLP basics</p></article><article><b>▤</b><h3>Data & Visualization</h3><p>Pandas · NumPy · Matplotlib · Plotly · CSV workflows</p></article><article><b>⌁</b><h3>Embedded & Robotics</h3><p>Arduino · sensors · motor-control concepts · path planning</p></article><article><b>⌂</b><h3>Web & Tools</h3><p>HTML · CSS · Git · GitHub · Streamlit</p></article><article><b>✳</b><h3>Research & Delivery</h3><p>Technical documentation · testing · teamwork · iteration</p></article></div><p class="note">This list represents areas of experience and active learning, not a claim of expert proficiency in every tool.</p></section>
-<section class="contact-band" id="contact"><div class="wrap contact-grid"><div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let’s build something<br><em>useful together.</em></h2><p class="muted">I’m open to research discussions, collaboration, and opportunities to work on practical software and engineering projects.</p></div><div class="contact-card"><small>START A CONVERSATION</small><h3>Get in touch</h3><p>For direct contact, use GitHub or add a professional email address when you are ready.</p><a href="https://github.com/samuelGebremedhn" target="_blank" rel="noopener noreferrer">GitHub profile <b>↗</b></a><a href="https://github.com/samuelGebremedhn?tab=repositories" target="_blank" rel="noopener noreferrer">Project repositories <b>↗</b></a></div></div></section>
-</main><footer class="wrap footer"><div class="footer-top"><a class="brand" href="#home"><span class="logo">SG</span> Samuel Gebremedhn</a><p>Built with curiosity, code, and a commitment to keep learning.</p><a href="#home" class="back">Back to top ↑</a></div><div class="copyright">© <span id="year"></span> Samuel Gebremedhn. Built with HTML, CSS & JavaScript.</div></footer>
-</body></html>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+    <header class="header">
+        <div class="nav"><a class="brand" href="#home"><span class="logo">SG</span> Samuel Gebremedhn</a>
+            <div class="nav-controls"><button id="themeToggle" class="theme-toggle" type="button"
+                    aria-label="Switch to dark theme" title="Switch theme"><span id="themeIcon"
+                        aria-hidden="true">☾</span><span class="theme-label">Dark mode</span></button><button id="menu"
+                    aria-expanded="false" aria-label="Open menu">☰</button></div>
+            <nav id="links"><a href="#projects">Projects</a><a href="#research">Research</a><a
+                    href="#experience">Experience</a><a href="#education">Education</a><a href="#about">About</a><a
+                    href="#skills">Skills</a><a class="contact-nav" href="#contact">Contact ↗</a><a
+                    href="https://github.com/samuelGebremedhn" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub profile">GitHub ↗</a></nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="hero wrap" id="home">
+            <div class="hero-grid">
+                <div>
+                    <p class="eyebrow"><i></i> COMPUTER SCIENCE · AI · DRONE TECHNOLOGY</p>
+                    <h1>Building technology<br>for <em>real-world problems.</em></h1>
+                    <p class="intro">I'm Samuel Gebremedhn, a Computer Science and Engineering graduate interested in
+                        applied AI, accessible technology, and autonomous systems.</p>
+                    <div class="actions"><a class="btn primary" href="#projects">Explore my work ↘</a><a
+                            class="btn secondary" href="#contact">Get in touch</a></div>
+                    <div class="facts">
+                        <div><b>AI & ML</b><span>Practical projects</span></div>
+                        <div><b>Robotics</b><span>Autonomy concepts</span></div>
+                        <div><b>Research</b><span>Build · test · learn</span></div>
+                    </div>
+                </div>
+                <div class="hero-art">
+                    <div class="grid"></div>
+                    <div class="orbit one"></div>
+                    <div class="orbit two"></div>
+                    <div class="drone">
+                        <div class="arm a"></div>
+                        <div class="arm b"></div>
+                        <div class="body"><i></i></div><span class="rotor r1"></span><span class="rotor r2"></span><span
+                            class="rotor r3"></span><span class="rotor r4"></span>
+                    </div>
+                    <div class="float f1"><b>⌘ &nbsp; Applied AI</b><small>Models & insights</small></div>
+                    <div class="float f2"><b>⌁ &nbsp; Autonomous systems</b><small>Navigation research</small></div>
+                    <div class="coords">11° 00' N · 38° 45' E<small>SIMULATED DATA</small></div>
+                </div>
+            </div>
+            <div class="hero-bottom"><span>PORTFOLIO / 2026</span><span>Curiosity into working prototypes
+                    <b>↓</b></span></div>
+        </section>
+        <section class="wrap section" id="projects">
+            <div class="heading">
+                <div>
+                    <p class="eyebrow">SELECTED WORK</p>
+                    <h2>Projects that turn ideas<br>into <em>prototypes.</em></h2>
+                </div>
+                <p>A growing collection of experiments in machine learning, knowledge tools, and drone simulation.</p>
+            </div>
+            <div class="filters"><button class="active" data-filter="all">All projects</button><button
+                    data-filter="ai">AI & Machine Learning</button><button data-filter="drone">Drone &
+                    Robotics</button><button data-filter="accessibility">Assistive Technology</button></div>
+            <div class="projects" id="projectGrid">
+                <article class="project featured" data-category="drone">
+                    <div class="visual drone-visual"><label>SIMULATION / 01</label>
+                        <div class="route"><svg viewBox="0 0 420 180" aria-label="Illustrated drone route">
+                                <path d="M25 145 C75 145 65 42 150 55 S220 145 275 95 S340 28 395 40" />
+                                <circle cx="25" cy="145" r="6" />
+                                <circle cx="150" cy="55" r="6" />
+                                <circle cx="275" cy="95" r="6" />
+                                <circle cx="395" cy="40" r="6" />
+                            </svg></div><small>WAYPOINT NAVIGATION · PATH PLANNING</small>
+                    </div>
+                    <div class="project-info">
+                        <div class="meta">DRONE TECHNOLOGY <span>01 / 06</span></div>
+                        <h3>DroneSim Lite</h3>
+                        <p>A laptop-friendly research prototype for simulated waypoint navigation, obstacle-aware route
+                            planning, telemetry visualization, and mission experiments.</p>
+                        <div class="tags"><span>Python</span><span>Streamlit</span><span>Plotly</span><span>A*
+                                Pathfinding</span></div><a href="https://github.com/samuelGebremedhn"
+                            data-repo-match="dronesim-lite" class="project-link">View repository ↗</a>
+                    </div>
+                </article>
+                <article class="project" data-category="ai">
+                    <div class="visual model-visual"><label>MACHINE LEARNING / 02</label>
+                        <div class="chart">
+                            <div class="chart-title">MODEL COMPARISON</div>
+                            <div class="bars"><i style="height:40%"></i><i style="height:66%"></i><i
+                                    style="height:53%"></i><i style="height:84%"></i><i style="height:73%"></i><i
+                                    style="height:95%"></i></div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="meta">AUTOML <span>02 / 06</span></div>
+                        <h3>ModelPilot</h3>
+                        <p>An automated machine-learning toolkit for dataset profiling, preprocessing, model
+                            benchmarking, evaluation, and prediction.</p>
+                        <div class="tags"><span>Python</span><span>Scikit-learn</span><span>Pandas</span></div><a
+                            href="https://github.com/samuelGebremedhn" data-repo-match="modelpilot"
+                            class="project-link">View repository ↗</a>
+                    </div>
+                </article>
+                <article class="project" data-category="ai">
+                    <div class="visual study-visual"><label>KNOWLEDGE TOOLS / 03</label>
+                        <div class="paper"><b>Study notes</b><i></i><i></i><i></i><small>Q&A · FLASHCARDS ·
+                                QUIZZES</small></div><strong class="spark">✳</strong>
+                    </div>
+                    <div class="project-info">
+                        <div class="meta">LOCAL AI ASSISTANT <span>03 / 06</span></div>
+                        <h3>StudyForge</h3>
+                        <p>A privacy-first study assistant for document-based questions, summaries, flashcards, and quiz
+                            generation using local retrieval.</p>
+                        <div class="tags"><span>Python</span><span>NLP</span><span>Streamlit</span></div><a
+                            href="https://github.com/samuelGebremedhn" data-repo-match="studyforge"
+                            class="project-link">View repository ↗</a>
+                    </div>
+                </article>
+                <article class="project" data-category="ai">
+                    <div class="visual anomaly-visual"><label>ANALYTICS / 04</label>
+                        <div class="scatter"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i
+                                class="outlier"></i><i></i><i></i><i></i><i></i></div><small
+                            class="outlier-label">OUTLIER DETECTED</small>
+                    </div>
+                    <div class="project-info">
+                        <div class="meta">UNSUPERVISED ML <span>04 / 06</span></div>
+                        <h3>AnomalyLens</h3>
+                        <p>An exploratory tool for finding unusual records in tabular datasets with anomaly scoring,
+                            visual analysis, and exportable results.</p>
+                        <div class="tags"><span>Isolation Forest</span><span>Python</span><span>Plotly</span></div><a
+                            href="https://github.com/samuelGebremedhn" data-repo-match="anomalylens"
+                            class="project-link">View repository ↗</a>
+                    </div>
+                </article>
+                <article class="project" data-category="ai">
+                    <div class="visual game-visual"><label>GAME AI / 05</label>
+                        <div class="hands"><span>✊</span><b>VS</b><span>✌</span></div><small>YOU 03 &nbsp; · &nbsp; AI
+                            02</small>
+                    </div>
+                    <div class="project-info">
+                        <div class="meta">ADAPTIVE GAME <span>05 / 06</span></div>
+                        <h3>GestureArena</h3>
+                        <p>A Rock Paper Scissors game with an adaptive opponent, match statistics, and optional
+                            experimental camera-based gesture input.</p>
+                        <div class="tags"><span>Python</span><span>OpenCV</span><span>Game Logic</span></div><a
+                            href="https://github.com/samuelGebremedhn" data-repo-match="gesturearena"
+                            class="project-link">View repository ↗</a>
+                    </div>
+                </article>
+                <article class="project" data-category="accessibility">
+                    <div class="visual chair-visual"><label>ASSISTIVE TECHNOLOGY / 06</label>
+                        <div class="chair"><i class="wheel big"></i><i class="wheel small"></i><i class="seat"></i><i
+                                class="back"></i><i class="wave"></i></div><small>OBSTACLE SENSING · MOBILITY
+                            SUPPORT</small>
+                    </div>
+                    <div class="project-info">
+                        <div class="meta">UNDERGRADUATE RESEARCH <span>06 / 06</span></div>
+                        <h3>Automated Wheelchair</h3>
+                        <p>An academic prototype exploring obstacle avoidance and sensor-assisted mobility using
+                            Arduino, ultrasonic sensing, and motor control.</p>
+                        <div class="tags"><span>Arduino</span><span>Ultrasonic Sensor</span><span>IoT Concepts</span>
+                        </div><a href="#research" class="project-link">Read research summary ↗</a>
+                    </div>
+                </article>
+            </div>
+            <p class="note">Project status varies: some are working software prototypes, while others are research or
+                development projects. See each repository for implementation details and limitations.</p>
+        </section>
+        <section class="wrap section github-section" id="github-projects">
+            <div class="heading">
+                <div>
+                    <p class="eyebrow">LIVE FROM GITHUB</p>
+                    <h2>More of my <em>work.</em></h2>
+                </div>
+                <p>Public repositories are loaded automatically from GitHub, so new projects can appear here without
+                    editing this page.</p>
+            </div>
+            <div class="repo-status" id="repoStatus" role="status">Loading public repositories…</div>
+            <div class="repo-grid" id="repoGrid" aria-live="polite"></div>
+            <div class="repo-footer"><a class="btn secondary"
+                    href="https://github.com/samuelGebremedhn?tab=repositories" target="_blank"
+                    rel="noopener noreferrer">Browse all repositories ↗</a></div>
+        </section>
+        <section class="research-band" id="research">
+            <div class="wrap research-grid">
+                <div>
+                    <p class="eyebrow">RESEARCH & ENGINEERING</p>
+                    <h2>Technology should<br>make a <em>difference.</em></h2>
+                    <p class="muted">My interests sit at the intersection of practical engineering and human needs:
+                        accessible mobility, autonomous systems, and software that helps people learn and make
+                        decisions.</p><a class="btn primary" href="#contact">Discuss a collaboration ↗</a>
+                </div>
+                <article class="research-card">
+                    <div class="meta green">RESEARCH NOTE / 001</div>
+                    <div class="research-symbol">⌁</div>
+                    <h3>Automated Wheelchairs with the Application of Obstacle Avoidance and Sensory Technology</h3>
+                    <p>An academic project exploring a cost-conscious wheelchair prototype with manual and autonomous
+                        modes, light-dependent control, ultrasonic obstacle detection, and Arduino-based motor control.
+                    </p>
+                    <hr>
+                    <div class="research-details">
+                        <div><small>FOCUS</small><b>Assistive mobility</b></div>
+                        <div><small>METHOD</small><b>Embedded systems</b></div>
+                        <div><small>GOAL</small><b>Safer navigation</b></div>
+                    </div>
+                    <p class="caveat">Prototype research only; not a certified medical or mobility device.</p>
+                </article>
+            </div>
+        </section>
+        <section class="wrap section education-section" id="education">
+            <div class="heading">
+                <div>
+                    <p class="eyebrow">ACADEMIC BACKGROUND</p>
+                    <h2>Learning that shaped<br>my <em>foundation.</em></h2>
+                </div>
+                <p>A concise overview of my formal computer science education.</p>
+            </div>
+            <div class="timeline">
+                <article class="timeline-item"><span class="timeline-date">2020 — 2024</span>
+                    <div>
+                        <h3>Bachelor of Technology / Engineering in Computer Science</h3>
+                        <p>C. V. Raman Global University · Bhubaneswar, Odisha, India</p><span
+                            class="timeline-note">Graduated 23 July 2024</span>
+                    </div>
+                    
+                </article>
+            </div>
+
+
+            <div class="timeline">
+                <article class="timeline-item"><span class="timeline-date">2025 — Current</span>
+                    <div>
+                        <h3>Masters of Technology / Engineering in Computer Science</h3>
+                        <p>Utkal University · Bhubaneswar, Odisha, India</p><span
+                            class="timeline-note">Ongoing</span>
+                    </div>
+                    
+                </article>
+            </div>
+
+
+
+
+        </section>
+        <section class="wrap section experience-section" id="experience">
+            <div class="heading">
+                <div>
+                    <p class="eyebrow">PROFESSIONAL EXPERIENCE</p>
+                    <h2>Communication,<br>precision and <em>delivery.</em></h2>
+                </div>
+                <p></p>
+            </div>
+            <div class="timeline">
+                <article class="timeline-item"><span class="timeline-date">Freelance · 6 years</span>
+                    <div>
+                        <h3>Language Freelancer · Translation</h3>
+                        <p>Medical, general, business, and financial translation work, including large projects with
+                            tight delivery deadlines.</p><span class="timeline-note">Independent client work ·
+                            Quality-focused delivery</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="wrap section" id="about">
+            <div class="heading">
+                <div>
+                    <p class="eyebrow">A LITTLE ABOUT ME</p>
+                    <h2>Engineer by training.<br><em>Builder by curiosity.</em></h2>
+                </div>
+            </div>
+            <div class="about-grid">
+                <div>
+                    <p class="lead">I’m a Computer Science and Engineering graduate from C. V. Raman Global University,
+                        India, with a strong interest in building practical software and engineering solutions.</p>
+                    <p class="muted">My work spans machine-learning applications, document-based learning tools,
+                        assistive technology, and early-stage drone simulation. I enjoy learning by building, testing
+                        ideas, documenting results, and improving projects incrementally.</p>
+                    <p class="muted">I’m especially interested in technology that can be useful in real settings—from a
+                        university lab to a community that needs more accessible tools.</p>
+                </div>
+                <div class="stats">
+                    <div><b>2024</b><span>Graduation year</span></div>
+                    <div><b>AI + Systems</b><span>Current areas of exploration</span></div>
+                    <div><b>Research mindset</b><span>Prototype, measure, improve</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="wrap section research-highlights" id="research-work">
+            <div class="heading">
+                <div>
+                    <p class="eyebrow">RESEARCH & PRESENTATIONS</p>
+                    <h2>Signals, movement<br>and <em>intelligent systems.</em></h2>
+                </div>
+                <p>Selected research-oriented work alongside the featured software projects.</p>
+            </div>
+            <div class="highlight-grid">
+                <article class="highlight-card"><span class="highlight-kicker">NEUROTECHNOLOGY</span>
+                    <h3>Parkinson’s Tremor Severity</h3>
+                    <p>Machine-learning work exploring tremor-severity classification from movement-sensor data.</p><a
+                        href="https://github.com/samuelGebremedhn/parkinson-tremor-severity" target="_blank"
+                        rel="noopener noreferrer">Explore repository ↗</a>
+                </article>
+                <article class="highlight-card"><span class="highlight-kicker">NEURODATA</span>
+                    <h3>EEG Emotion Classification</h3>
+                    <p>A project focused on emotion-classification experiments using EEG data.</p><a
+                        href="https://github.com/samuelGebremedhn/EEG-emotion-Neurodata" target="_blank"
+                        rel="noopener noreferrer">Explore repository ↗</a>
+                </article>
+                <article class="highlight-card"><span class="highlight-kicker">ASSISTIVE ENGINEERING</span>
+                    <h3>Automated Wheelchair Research</h3>
+                    <p>Academic research on obstacle avoidance and sensory technology for an Arduino-based wheelchair
+                        prototype; presented at the 15th ICCCNT.</p><a href="#research">Read project summary ↗</a>
+                </article>
+            </div>
+        </section>
+        <section class="wrap section skills-section" id="skills">
+            <div class="heading">
+                <div>
+                    <p class="eyebrow">TOOLS & INTERESTS</p>
+                    <h2>My technical <em>toolkit.</em></h2>
+                </div>
+                <p>A growing skill set developed through academic work and independent projects.</p>
+            </div>
+            <div class="skills">
+                <article><b>⌘</b>
+                    <h3>Programming</h3>
+                    <p>Python · C/C++ fundamentals · JavaScript basics</p>
+                </article>
+                <article><b>◈</b>
+                    <h3>Machine Learning</h3>
+                    <p>Scikit-learn · preprocessing · model evaluation · NLP basics</p>
+                </article>
+                <article><b>▤</b>
+                    <h3>Data & Visualization</h3>
+                    <p>Pandas · NumPy · Matplotlib · Plotly · CSV workflows</p>
+                </article>
+                <article><b>⌁</b>
+                    <h3>Embedded & Robotics</h3>
+                    <p>Arduino · sensors · motor-control concepts · path planning</p>
+                </article>
+                <article><b>⌂</b>
+                    <h3>Web & Tools</h3>
+                    <p>HTML · CSS · Git · GitHub · Streamlit</p>
+                </article>
+                <article><b>✳</b>
+                    <h3>Research & Delivery</h3>
+                    <p>Technical documentation · testing · teamwork · iteration</p>
+                </article>
+            </div>
+            <p class="note">This list represents areas of experience and active learning, not a claim of expert
+                proficiency in every tool.</p>
+        </section>
+        <section class="contact-band" id="contact">
+            <div class="wrap contact-grid">
+                <div>
+                    <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+                    <h2>Let’s build something<br><em>useful together.</em></h2>
+                    <p class="muted">I’m open to research discussions, collaboration, and opportunities to work on
+                        practical software and engineering projects.</p>
+                </div>
+                <div class="contact-card"><small>START A CONVERSATION</small>
+                    <h3>Get in touch</h3>
+                    <p>For direct contact, use GitHub or add a professional email address when you are ready.</p><a
+                        href="https://github.com/samuelGebremedhn" target="_blank" rel="noopener noreferrer">GitHub
+                        profile <b>↗</b></a><a href="https://github.com/samuelGebremedhn?tab=repositories"
+                        target="_blank" rel="noopener noreferrer">Project repositories <b>↗</b></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="wrap footer">
+        <div class="footer-top"><a class="brand" href="#home"><span class="logo">SG</span> Samuel Gebremedhn</a>
+            <p>Built with curiosity, code, and a commitment to keep learning.</p><a href="#home" class="back">Back to
+                top ↑</a>
+        </div>
+        <div class="copyright">© <span id="year"></span> Samuel Gebremedhn. Built with HTML, CSS & JavaScript.</div>
+    </footer>
+</body>
+
+</html>
