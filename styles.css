@@ -58,3 +58,11 @@ html[data-theme="dark"] .research-band,html[data-theme="dark"] .contact-band{bac
 html[data-theme="dark"] .timeline-item:before{background:#aab2bd;border-color:var(--panel);box-shadow:0 0 0 1px var(--line)}html[data-theme="dark"] .timeline-date,html[data-theme="dark"] .timeline-note,html[data-theme="dark"] .highlight-kicker{color:#aab2bd}html[data-theme="dark"] .highlight-card a{color:#e1e4e9}
 html[data-theme="dark"] .theme-toggle{background:#202329;color:#e8eaed;border-color:#3a3f47}html[data-theme="dark"] #menu{background:#202329;color:#e8eaed;border-color:#3a3f47}html[data-theme="dark"] .nav nav.open{background:#17191c;border-color:var(--line)}
 @media(prefers-reduced-motion:reduce){body{transition:none}}
+
+.certificate-card{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:28px;padding:22px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.certificate-card h3{margin:8px 0 5px;font-size:18px}
+.certificate-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.7}
+.certificate-card a{flex-shrink:0;color:var(--text);font-size:12px;font-weight:650;text-underline-offset:4px}
+.certificate-card a:hover{text-decoration:underline}
+.certificate-card a:focus-visible{outline:3px solid #8d9caf;outline-offset:3px}
+@media(max-width:620px){.certificate-card{align-items:flex-start;flex-direction:column}}
