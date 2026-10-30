@@ -67,7 +67,7 @@ html[data-theme="dark"] .theme-toggle{background:#202329;color:#e8eaed;border-co
 .certificate-card a:focus-visible{outline:3px solid #8d9caf;outline-offset:3px}
 @media(max-width:620px){.certificate-card{align-items:flex-start;flex-direction:column}}
 
-.certification-section{margin-top:52px}
+.certification-section{margin-top:52px;scroll-margin-top:110px}
 .certification-section>h3{margin:0 0 18px;font-size:22px;letter-spacing:-.03em}
 .certification-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .certification-card{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:20px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
