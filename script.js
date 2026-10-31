@@ -61,7 +61,7 @@ if (year) year.textContent = new Date().getFullYear();
 
 const repoGrid = document.getElementById('repoGrid');
 const repoStatus = document.getElementById('repoStatus');
-const featuredNames = new Set(['dronesimlite','modelpilot','studyforge','anomalylens','gesturearena','parkinsontremorseverity','eegemotionneurodata']);
+const excludedRepoNames = new Set(['portfolio','dronesimlite','modelpilot','studyforge','anomalylens','gesturearena','parkinsontremorseverity','eegemotionneurodata']);
 const normalizeRepoName = value => String(value ?? '').toLowerCase().replace(/[^a-z0-9]/g, '');
 const safeText = value => String(value ?? '');
 const escapeHtml = value => safeText(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -77,7 +77,7 @@ async function loadRepositories() {
     const response = await fetch(`https://api.github.com/users/${encodeURIComponent(GITHUB_USERNAME)}/repos?per_page=100&sort=updated&type=owner`, {headers:{'Accept':'application/vnd.github+json'}});
     if (!response.ok) throw new Error(response.status === 403 ? 'GitHub API rate limit reached. Please try again later.' : `GitHub returned ${response.status}.`);
     const repos = await response.json();
-    const owned = repos.filter(repo => !repo.archived && !repo.disabled && !featuredNames.has(normalizeRepoName(repo.name))).slice(0, 12);
+    const owned = repos.filter(repo => !repo.archived && !repo.disabled && !excludedRepoNames.has(normalizeRepoName(repo.name))).slice(0, 12);
     // Point featured cards to matching repositories when those repositories exist.
     for (const link of document.querySelectorAll('[data-repo-match]')) {
       const match = repos.find(repo => normalizeRepoName(repo.name) === normalizeRepoName(link.dataset.repoMatch));

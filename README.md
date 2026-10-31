@@ -14,7 +14,7 @@ A responsive personal portfolio for software, applied AI, research, and engineer
 Open `index.html` in a browser, or run `python -m http.server 8000` and visit `http://localhost:8000`.
 
 ## Automatic GitHub repositories
-The page uses GitHub's public REST API. New public repositories can appear in the **More of my work** section on the next page load. The page excludes archived repositories and the five selected projects already shown above to avoid duplicate cards. It displays up to 12 other repositories, ordered by most recently updated. The anonymous GitHub API has rate limits, so if the API is temporarily unavailable the page still links to the full profile.
+The page uses GitHub's public REST API. New public repositories can appear in the **More of my work** section on the next page load. The page excludes archived repositories, the Portfolio repository, and selected projects already shown above to avoid duplicate cards. It displays up to 12 other repositories, ordered by most recently updated. The anonymous GitHub API has rate limits, so if the API is temporarily unavailable the page still links to the full profile.
 
 To change the account, edit `GITHUB_USERNAME` in `script.js` and the profile links in `index.html`.
 
